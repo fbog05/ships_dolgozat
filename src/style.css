@@ -6,21 +6,36 @@
 * Licenc: GNU GPL
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body{
-    background-color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(223, 205, 178);
 }
 
 h1{
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
     color: rgb(124, 87, 87);
 }
 
+.table{
+    border: double 3px rgb(124, 87, 87)
+}
+
 #about{
-    
+    margin-left: 700px;
+    border: double 3px rgb(124, 87, 87);
+    text-align: center;
+    width: 500px;
+    color:rgb(90, 64, 64);
 }
 
 .idezet{
+    margin-left: 700px;
     text-align: center;
     background-color: rgba(124, 87, 87, 0.397);
+    width: 500px;
+    color:rgb(90, 64, 64);
 }
