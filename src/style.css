@@ -13,8 +13,14 @@ body{
 h1{
     text-align: center;
     text-transform: uppercase;
+    color: rgb(124, 87, 87);
+}
+
+#about{
+    
 }
 
 .idezet{
     text-align: center;
+    background-color: rgba(124, 87, 87, 0.397);
 }

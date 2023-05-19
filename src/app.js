@@ -47,7 +47,6 @@ function render(){
         </tr>
         `;
         rows += row
-        console.log(ship.name)
     });
     doc.tbody.innerHTML = rows
 };
