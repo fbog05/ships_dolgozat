@@ -21,21 +21,24 @@ h1{
 }
 
 .table{
-    border: double 3px rgb(124, 87, 87)
+    border: double 3px rgb(124, 87, 87);
+    background-color: rgb(218, 187, 141);
 }
 
 #about{
     margin-left: 700px;
+    margin-top: 20px;
     border: double 3px rgb(124, 87, 87);
     text-align: center;
     width: 500px;
     color:rgb(90, 64, 64);
+    background-color: rgb(218, 187, 141);
 }
 
 .idezet{
     margin-left: 700px;
     text-align: center;
-    background-color: rgba(124, 87, 87, 0.397);
+    background-color: rgb(196, 167, 125);
     width: 500px;
     color:rgb(90, 64, 64);
     font-style: italic;
