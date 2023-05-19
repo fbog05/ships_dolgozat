@@ -1,6 +1,11 @@
-//Ferencsik Boglárka
-//SZOFT-I-2-N
-//2023-05-19
+<!-- 
+    File: index.html
+    Author: Ferencsik Boglárka
+    Group: SZOFT-I-2-N
+    Date: 2023-05-19
+    Github: https://github.com/fbog05
+    Licenc: GNU GPL 
+-->
 
 <!DOCTYPE html>
 <html lang="hu">
@@ -16,17 +21,29 @@
     <div class="container">
         <h1>Ships</h1>
 
-        <table>
-            <tr>
-                <th>Név</th>
-                <th>Méret (cm)</th>
-                <th>Ár</th>
-                <th>Személyek száma</th>
-                <th>Utánfutó</th>
-            </tr>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Név</th>
+                    <th>Méret (cm)</th>
+                    <th>Ár</th>
+                    <th>Személyek száma</th>
+                    <th>Utánfutó</th>
+                </tr>
+            </thead>
+        <tbody id="tbody"></tbody>
         </table>
     </div>
-    <script src="js/bootstrap.js"></script>
+
+    <div class="idezet">
+        Meg kell ismerned a világot, hogy megleld benne a helyed.
+    </div>
+
+    <div id="about">
+        Ferencsik Boglárka, SZOFT-I-2-N, 2023-05-19
+    </div>
+
+    <script src="bootstrap.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

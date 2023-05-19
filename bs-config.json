@@ -2,7 +2,7 @@
     "server": [
         "src",
         "node_modules/bootstrap/dist/css",
-        "node/modules/bootstrap/dist/js"    
+        "node_modules/bootstrap/dist/js"    
     ],
     "port": 3000
 }
